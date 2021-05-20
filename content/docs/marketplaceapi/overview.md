@@ -1,5 +1,5 @@
 ---
-title: "How to Update"
+title: "Marketplace API Overview"
 description: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
 lead: "Regularly update the installed npm packages to keep your Doks website stable, usable, and secure."
 date: 2020-11-12T13:26:54+01:00
@@ -8,12 +8,18 @@ draft: false
 images: []
 menu:
   docs:
-    parent: "help"
+    parent: "marketplaceapi"
 weight: 610
 toc: true
 ---
 
-{{< alert icon="💡" text="Learn more about <a href=\"https://docs.npmjs.com/about-semantic-versioning\">semantic versioning</a> and <a href=\"https://docs.npmjs.com/cli/v6/using-npm/semver#advanced-range-syntax\">advanced range syntax</a>." >}}
+## Titke
+
+<div class="alert alert-warning" role="alert">
+  Status 200 OK
+</div>
+
+
 
 ## Check for outdated packages
 
