@@ -26,9 +26,7 @@ This is our marketplace-wide API, examples of when you'd choose to use this API 
 - You need access to all data across the entire marketplace
 - You want to automate marketplace categorization (taxonomy) creation
 
-<div class="alert alert-warning" role="alert" >
-  👉 Typically only the <b>Marketplace Operator</b> will use marketplace API.
-</div>
+{{< alert icon="👉" text="Typically only the <b>Marketplace Operator</b> will use this API." />}}
 
 **API Type:** GraphQL
 
@@ -59,9 +57,7 @@ Webhooks can be used at both a Marketplacer and Seller level. They provide a way
 - Shipments*
 - Variants
 
-<div class="alert alert-warning" role="alert" >
-  👉 Advert and Shipment objects not currently supported at the <b>Seller</b> level
-</div>
+{{< alert icon="👉" text="Advert and Shipment objects not currently supported at the <b>Seller</b> level" />}}
 
 [Get Started with Webhooks →]({{< relref "glossary" >}})
 

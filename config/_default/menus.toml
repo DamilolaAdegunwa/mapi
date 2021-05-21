@@ -10,6 +10,13 @@
   identifier = "marketplaceapi"
   url = "/docs/marketplaceapi/"
 
+[[docs]]
+  name = "Seller API"
+  weight = 90
+  identifier = "sellerapi"
+  url = "/docs/sellerapi/"
+
+
 [[main]]
   name = "Docs"
   url = "/docs/welcome/introduction/"
