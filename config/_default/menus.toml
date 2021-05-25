@@ -16,6 +16,18 @@
   identifier = "sellerapi"
   url = "/docs/sellerapi/"
 
+[[docs]]
+  name = "Webhooks"
+  weight = 120
+  identifier = "webhooks"
+  url = "/docs/webhooks/"
+
+[[docs]]
+  name = "Changelog"
+  weight = 150
+  identifier = "changelog"
+  url = "/docs/changelog/"
+
 
 [[main]]
   name = "Docs"
