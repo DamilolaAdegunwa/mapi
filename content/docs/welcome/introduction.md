@@ -18,6 +18,8 @@ Welcome to the FakeCo API Documentation site - here you'll find the resources ne
 
 FakeCo has 2 APIs to choose from, the one you develop with will be driven by the use-cases that you are developing for - so choose wisely!
 
+![Comparison of APIs](../ourapis.png)
+
 #### Marketplace API
 
 This is our marketplace-wide API, examples of when you'd choose to use this API are:
@@ -30,7 +32,7 @@ This is our marketplace-wide API, examples of when you'd choose to use this API 
 
 **API Type:** GraphQL
 
-[Get Started with the Marketplace API →]({{< relref "glossary" >}})
+[Get Started with the Marketplace API →]({{< relref "../marketplaceapi/overview" >}})
 
 #### Seller API 
 
@@ -45,7 +47,7 @@ Examples of when you'd use the Seller API are:
 
 **API Type:** REST
 
-[Get Started with the Seller API →]({{< relref "glossary" >}})
+[Get Started with the Seller API →]({{< relref "../sellerapi/overview" >}})
 
 #### Webhooks
 

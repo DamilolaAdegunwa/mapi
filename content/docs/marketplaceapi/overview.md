@@ -13,11 +13,17 @@ weight: 610
 toc: true
 ---
 
-If you encounter any issues with using this API, please contact our suppport team at [support@marketplacer.com](mailto:support@marketplacer.com) with:
+In this section you'll be provided an overview of the FakeCo Marektplace API.
 
-1. An example of what request you're making
-2. What headers + body are being returned from the server
-3. What you expect to happen
+## API Use Cases
+
+This is our marketplace-wide API, examples of when you'd choose to use this API are:
+- You are building a custom headless front end on top of FakeCo.
+- You are integrating between FakeCo and an existing eCom Platform
+- You need access to all data across the entire marketplace
+- You want to automate marketplace categorization (taxonomy) creation
+
+![Comparison of APIs](../images/marketplaceapi.png)
 
 ## GraphQL
 
@@ -66,7 +72,7 @@ Information on how to get your API key can be found in [Getting Started](/docs/m
 
 ## Postman Collection
 
-[Postman](https://www.postman.com/downloads/) is a tool for developing and testing API integrations. It provides an interface for exploring APIs and executing requests against them. A postman collection is a document describing a series of API requests that can be imported into Postman to speed up this process. We have published a [Postman collection for the Marketplacer GraphQL API](/postman/Marketplacer GraphQL API.postman_collection.json){:download="Marketplacer GraphQL API.postman_collection.json"}. It contains example query and mutation requests.
+[Postman](https://www.postman.com/downloads/) is a tool for developing and testing API integrations. It provides an interface for exploring APIs and executing requests against them. A postman collection is a document describing a series of API requests that can be imported into Postman to speed up this process. We have published a [Postman collection for the Marketplacer GraphQL API](https://api.marketplacer.com/postman/Marketplacer%20GraphQL%20API.postman_collection.json). It contains example query and mutation requests.
 
 To import into Postman, download the `.json` file and go to the import menu in Postman:
 
@@ -233,3 +239,11 @@ Using the Order query, you can return the _child objects_ of the Order, includin
 - Invoices
 - Line Items
 - Shipments
+
+## Getting Support
+
+If you encounter any issues with using this API, please contact our suppport team at [support@marketplacer.com](mailto:support@marketplacer.com) with:
+
+1. An example of what request you're making
+2. What headers + body are being returned from the server
+3. What you expect to happen
