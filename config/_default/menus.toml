@@ -35,9 +35,18 @@
   weight = 10
 
 [[main]]
-  name = "Blog"
-  url = "/blog/"
+  name = "How To..."
+  identifier = "howto"
+  url = "/howto/"
   weight = 20
+
+[[main]]
+  name = "Videos"
+  identifier = "videos"
+  url = "/videos/"
+  weight = 30
+
+
 
 [[social]]
   name = "Twitter"
